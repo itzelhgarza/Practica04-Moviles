@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <gradient android:type="Linear"
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:type="linear"
         android:angle="270"
-        android:starColor="@color/crema"
+        android:startColor="@color/rojo"
         android:endColor="@color/white"/>
-</selector>
+</shape>
