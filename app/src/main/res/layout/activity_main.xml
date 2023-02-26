@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/crema"
+    android:background="@color/cremita"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!-- Alineaciones -->
 
      <!-- Objeto imagen -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -20,6 +21,7 @@
         tools:ignore="MissingConstraints"/>
 
     <!-- Objetos text -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -54,9 +56,9 @@
         android:id="@+id/btn_get_started"
         android:layout_width="220dp"
         android:layout_height="48dp"
-        android:gravity="center"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_button"
+        android:gravity="center"
         android:text="@string/button_start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
